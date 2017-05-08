@@ -14,3 +14,8 @@ windows : AndroidStudio安装目录\plugins\android\lib\templates
 
 ![](images/1.gif)
 
+# JPush的使用说明
+
+由于使用JPush需要在 build.gradle中配置内容,这里会导致一个报错,解决方式很简单,直接选择对应的地方按下退格键即可
+
+![](images/2.gif)
