@@ -6,6 +6,7 @@ mail: wang.developer@gmail.com
 
 欢迎一起交流,分享~
 
+学习更多 (官方文档): https://www.jetbrains.com/help/idea/2016.1/configuring-project-and-working-environment.html
 
 # AndroidTemplates
 扩充AndroidStudio中Templates,说实话Templates的坑很多,关键是出错无提示,重复调试很费时间,有兴趣玩这个的朋友 可以联系我,我们互相探讨少踩坑
