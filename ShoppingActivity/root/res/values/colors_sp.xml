@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--底部导航栏文本-->
+    <color name="bottom_navigation_bg">#FFFFFF</color>
+    <color name="word_gray_color_F57725">#881E2B58</color>
+
+    <color name="font_tab_select">#458FDA</color>
+    <color name="font_tab">#596A7C</color>
+    <color name="layout_backgroud_gray">#F3F4F9</color>
+</resources>

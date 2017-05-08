@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <FrameLayout
+        android:id="@+id/main_activity_fragment_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/main_bottom_navigation_rg"
+        android:background="@android:color/transparent">
+    </FrameLayout>
+
+    <RadioGroup
+        android:id="@+id/main_bottom_navigation_rg"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:paddingTop="6dp"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/bottom_navigation_bg"
+        android:orientation="horizontal">
+        <RadioButton
+            android:id="@+id/rb_menu_home"
+            style="@style/main_bottom_navigaton_menu_item"
+            android:drawableTop="@drawable/selector_main_bottom_navigation_home"
+            android:text="@string/main_bottom_navigation_home"/>
+
+        <RadioButton
+            android:id="@+id/rb_menu_query"
+            style="@style/main_bottom_navigaton_menu_item"
+            android:drawableTop="@drawable/selector_main_bottom_navigation_query"
+            android:text="@string/main_bottom_navigation_query"/>
+
+        <RadioButton
+            android:id="@+id/rb_menu_statistics"
+            android:drawableTop="@drawable/selector_main_bottom_navigation_statistics"
+            style="@style/main_bottom_navigaton_menu_item"
+            android:text="@string/main_bottom_navigation_news"/>
+
+        <RadioButton
+            android:id="@+id/rb_menu_mine"
+            android:drawableTop="@drawable/selector_main_bottom_navigation_my"
+            style="@style/main_bottom_navigaton_menu_item"
+            android:text="@string/main_bottom_navigation_my"/>
+    </RadioGroup>
+
+
+</RelativeLayout>

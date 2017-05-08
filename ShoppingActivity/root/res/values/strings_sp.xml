@@ -1,0 +1,7 @@
+<resources>
+ 
+    <string name="main_bottom_navigation_home">首页</string>
+    <string name="main_bottom_navigation_query">查询</string>
+    <string name="main_bottom_navigation_news">新闻</string>
+    <string name="main_bottom_navigation_my">我的</string>
+</resources>
